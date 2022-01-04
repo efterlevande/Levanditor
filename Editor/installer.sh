@@ -1,5 +1,6 @@
 #!/bin/sh
 function install() {
+        pip3 install PyQt5
 	mkdir /usr/share/levanditor
 	cp ./levditor.py /usr/share/levanditor/
 	cp ./Le.png /usr/share/pixmaps/

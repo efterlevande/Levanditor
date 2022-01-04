@@ -10,10 +10,6 @@ from PyQt5.QtCore import *
 
 
 
-
-
-
-
 class ha(QMainWindow):
     def __init__(self):
       super().__init__()

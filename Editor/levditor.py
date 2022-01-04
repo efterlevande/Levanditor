@@ -8,7 +8,7 @@ from PyQt5.QtCore import *
 
 
 
-print("Thank you for using Levanditor")
+
 
 
 

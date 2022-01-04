@@ -1,12 +1,12 @@
 #!/bin/sh
 function install() {
 	mkdir /usr/share/levanditor
-	cp ./editor.py /usr/share/levanditor/
+	cp ./levditor.py /usr/share/levanditor/
 	cp ./Le.png /usr/share/pixmaps/
 	cp ./levanditor.desktop /usr/share/applications/
 	echo "#!/bin/sh" >> /usr/bin/levanditor
-	echo "python3 /usr/share/levanditor/editor.py" >> /usr/bin/levanditor
-	chmod +x /usr/share/levanditor/editor.py
+	echo "python3 /usr/share/levanditor/levditor.py" >> /usr/bin/levanditor
+	chmod +x /usr/share/levanditor/levditor.py
 	chmod +x /usr/bin/levanditor
 }
 
